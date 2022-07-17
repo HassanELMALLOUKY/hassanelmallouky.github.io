@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio website of Baljit Singh(thebaljitsingh) | Github Portfolio BaljitSingh">
+    <meta name="keywords" content="Baljit Singh, TheBaljitSingh, BaljitSingh Parul, Project Baljit Singh, Baljit Singh Github, Baljit Singh portfolio website, portfolio">
+    <meta name="author" content="Baljit Singh">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./gallery/favicon-32x32.png">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="website.css">
+    <script src="https://kit.fontawesome.com/07185539a3.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+</head>
+
+<body>
+
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up" ></i>
+    </div>
+
+
+    <nav class="navbar">
+        <div class="max-width">
+            <h1 class="logo"> <a href="#">My<span>Portfolio</span></a></h1>
+
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn" >Home</a></li>
+                <li><a href="#about"  class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#contact" class="menu-btn">Contact me</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+                <!-- <i class="fa fa-bars"></i> -->
+            </div> 
+        </div>
+
+    </nav>
+
+
+    <!-- home section start -->
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content"></div>
+            <div class="text-1">Hello, My name is</div>
+            <div class="text-2">Hassan EL MALLOUKY</div>
+            <div class="text-3">And I'm a <span class="typing"></span> </div>
+            <a id="contact-me" href="#contact">Contact me</a>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="./gallery/me.jpg">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Hassan and <span> I'm</span> </div>
+                    <p>A student of the Master ISI (Computer Science Engineering) M1 at the polydisciplinary faculty of Beni Mellal.
+                        I am interested in a Web/Mobile Development, I have done a lot of web and mobile development projects.
+                    </p>
+                    <a href="https://www.linkedin.com/in/hassan-el-mallouky" target="_blank">Linkedin</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects section start -->
+
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">Projects</h2>
+            <div class="serv-content ">
+                <!-- Project 1 -->
+                <div class="card">
+                    <a href="https://github.com/HassanELMALLOUKY/FPBM_App">
+                        <p>School system management Android App</p>
+                    <img src="./gallery/school.png" width="50%" height="50%">
+                    </a>
+                </div>
+                <!-- Project 2 -->
+                <div class="card">
+                    <a href="https://github.com/HassanELMALLOUKY/DashBoard_FPBM_Firebase_Laravel8">
+                        <p>Dashboard School System Using Laravel</p>
+                    <img src="./gallery/dashboard.jpg" width="50%" height="50%">
+                    </a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="card">
+                    <a href="https://github.com/HassanELMALLOUKY/DownloadManagerPython">
+                        <p>YouTube Download Manager Using Python </p>
+                    <img src="./gallery/DM_Python.png" width="100%" height="100%">
+                    </a>
+                </div>
+             <hr><hr>
+                <!-- Project 4 -->
+                <div class="card">
+                    <a href="#">
+                        <p>Job Finder Using Flutter </p>
+                    <img src="./gallery/jobfinder.png" width="90%" height="90%">
+                    </a>
+                </div>
+                <!-- Project 5 -->
+                <div class="card">
+                    <a href="https://github.com/HassanELMALLOUKY/SiteEcommerce">
+                        <p>Ecommerce Website Using Laravel+Stripe </p>
+                    <img src="./gallery/ecommerce.png" width="75%" height="75%">
+                    </a>
+                </div>
+
+                
+                
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills & experience</div>
+                    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores eius neque natus non impedit ullam amet itaque aperiam blanditiis id officia nihil sed totam molestiae animi quas veniam aliquam temporibus quibusdam, libero hic rem excepturi alias. Itaque quas, laborum quae incidunt laboriosam molestias soluta, ipsum quasi facere est, neque accusantium magnam ad. Illo accusamus sint sapiente alias corporis voluptate. Voluptas omnis fuga optio? Maxime itaque quod quia sequi exercitationem neque obcaecati necessitatibus cumque aspernatur, qui expedita harum, perferendis esse corrupti adipisci quam rem consequuntur temporibus. Sit, vel. Et, vitae! Similique repellendus inventore necessitatibus dolorem tempora unde laboriosam expedita, officiis cupiditate. </p> -->
+                    <p>I am interested in Web/Mobile Development, and learning new Programming Language
+                        and seeking exciting opportunities replaced to the same. In the Web/Mobile Development fields, I am looking
+                        for being a Full Stack Devloper. I am also trying to do freelancing on different platforms as a side hustle.<br>
+
+                        Beginning in College I learned to create a website on using HTML 5 CSS 3 and JavaScript as Front End side. Simultaneously I also learned BackEnd side(php/Spring....).<br>
+
+                        That skills that i have attained from the dynamic environment and college life, and I am looking
+                        forward to implementing and pushing them in any opportunity that i receive.</p>
+                   <a class="read" href="https://www.linkedin.com/in/hassan-el-mallouky" target="_blank">read more</a>
+                    
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>Angular</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Flutter</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line css"></div>
+
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Spring/JEE</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line spring"></div>
+
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Oracle</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line oracle"></div>
+
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Linux(Debian & RedHat)</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line linux"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+            <!-- contact section start -->
+            <section class="contact" id="contact">
+                <div class="max-width">
+                    <h2 class="title">Contact me</h2>
+                    <div class="contact-content">
+                        <div class="column left">
+                            <p class="">My Social Media Accounts:</p>
+                            <a href="https://www.linkedin.com/in/hassan-el-mallouky"><img src="./gallery/linkedin.png"></a>
+                            <a href="https://www.facebook.com/hassan.smi21"><img src="./gallery/facebook.png"></a>
+                            <a href="mailto: hassan.elmallouky@gmail.com"><img src="./gallery/gmail.png"></a>
+                            <a href="https://wa.me/212655306439"><img src="./gallery/whatsapp.png"></a>
+
+                        </div>
+                        <div class="column right">
+                            <p>For any query or support so please reach out me drop me messege</p>
+                            <div class="icons">
+                                <div class="row">
+                                    <i class="fas fa-user"></i>
+                                    <div class="info">
+                                        <div class="head">Name</div>
+                                        <div class="sub-title">Hassan EL MALLOUKY</div>
+                                    </div>
+                                </div>
+                                
+                            <div class="row">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div class="info">
+                                        <div class="head">Address</div>
+                                        <div class="sub-title">Khenifra, Morocco</div>
+                                    </div>
+                                </div>
+                            <div class="row">
+                                    <i class="fas fa-envelope"></i>
+                                    <div class="info">
+                                        <div class="head">Email</div>
+                                        <div class="sub-title">hassan.elmallouky@gmail.com</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+<!-- footer section start -->
+<footer style='text-align: center'; >
+    <span>Created By <a href="#">Hassan EL</a> | <span class="far fa-copyright" ></span> 2021-2022 All rights reserved.  </span>
+</footer>
+
+
+
+    <script src="website.js"></script>
+</body>
+
+</html>
+.
